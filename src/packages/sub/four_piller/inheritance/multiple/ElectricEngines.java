@@ -1,0 +1,20 @@
+package packages.sub.four_piller.inheritance.multiple;
+
+public class ElectricEngines implements Engine{
+    @Override
+    public void start() {
+        System.out.println("Electric Engine Start");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Electric Engine Stop");
+
+    }
+
+    @Override
+    public void acc() {
+        System.out.println("Electric Engine accelerate");
+
+    }
+}
